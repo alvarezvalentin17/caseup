@@ -1,0 +1,32 @@
+html, body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    background-color: rgba(71, 69, 69, 0.156);
+  }
+
+nav {
+    background-color: rgb(0, 0, 0);
+    height: 5rem;
+    
+}
+
+nav ul li {
+    margin-top: 30px;
+    display: inline-block;
+    margin-left: 200px;
+
+}
+
+nav ul li a{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+/* .img {
+    width: 300px;
+    height: 300px;
+} */

@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.title {
+    background-color: rgba(128, 128, 128, 0.356);
+    padding-bottom: 2rem;
+    width: 10.2rem;
+
+}
+
+.btn {
+    color: rgba(255, 255, 255, 0.829);
+    font-size: 20px;
+    border: none;
+    cursor:pointer;
+    padding-right: 10px;
+    margin: 0 auto;
+    
+}
+
+
+.contador {
+    display: inline-flex;
+
+    width: 10rem;
+    
+}
+
+.view {
+    margin: 0 auto 0 auto;  
+}
+
+.Counter {
+
+    width: 11rem;
+    margin-left: 2rem;
+    margin-top: 5rem;
+
+}
+.Counter1 {
+    width: 11rem;
+    margin-left: 2rem;
+
+}
+
+
+.addCart {
+    background-color: rgba(0, 0, 0, 0.842);
+    color: rgba(255, 255, 255, 0.995);
+    width: 10.2rem;
+    height: 40px;
+    border-radius: 20px;
+    cursor:pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
