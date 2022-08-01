@@ -10,8 +10,8 @@ function Navbar () {
         <header>
             <nav className="navbar">
                 <ul >
-                    <li><Link className="" to='/'>
-                        Inicio
+                    <li><Link className="menu" to='/'>
+                        Todos
                         </Link></li>
                     <li><Link className="" to='/category/Apple'>Apple</Link></li>
                     <li><Link className="" to='/category/Samsung'>Samsung</Link></li>

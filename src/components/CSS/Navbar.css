@@ -1,7 +1,7 @@
 html, body {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    background-color: rgba(71, 69, 69, 0.156);
+    background-color: rgba(255, 255, 255, 0.156);
   }
 
 nav {
@@ -26,7 +26,7 @@ nav ul li a{
     color: rgb(255, 255, 255);
 }
 
-/* .img {
-    width: 300px;
-    height: 300px;
-} */
+nav ul li a:hover {
+font-size: larger;
+background-color: grey;
+}
