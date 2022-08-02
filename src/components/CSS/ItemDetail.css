@@ -61,3 +61,18 @@
     width: 40%!important;
     height: 25rem;
   }
+
+
+  .container-detail {
+    display: flex;
+    width: 80%;
+    height: 40rem;
+    padding-top: 2rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    border:5px solid #000;
+  }
+
+  .detail-info {
+    margin-left: 3rem;
+  }

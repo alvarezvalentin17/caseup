@@ -63,6 +63,7 @@ export const CartProvider = ({defaultValue = [], children}) => {
         })
         return total
     }
+    
 
     const context = {
         cart,

@@ -50,7 +50,7 @@ function ItemCount({ stock, onAdd }) {
         </section>
       </section>
       <section className="Counter1">
-        <p>{stock > 1 ? `${stock} unidades disponibles` : `Ultima unidad!`}</p>
+        <p className="stock">{stock > 1 ? `${stock} unidades disponibles` : `Ultima unidad!`}</p>
         <button className="addCart" onClick={() => onAdd(numero)}>
           Agregar al carrito
         </button>

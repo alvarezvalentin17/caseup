@@ -1,0 +1,18 @@
+.btn-purchase {
+    margin-left: 50px;
+    margin-top: 25px;
+    width: 5rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+}
+.btn-purchase:hover {
+    cursor: pointer;
+}
+
+.totales {
+    padding-left: 50px;
+    padding-top: 25px;
+
+}

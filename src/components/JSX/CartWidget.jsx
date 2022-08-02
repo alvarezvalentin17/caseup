@@ -1,7 +1,11 @@
 import '../CSS/CartWidget.css'
 import {Link} from 'react-router-dom'
+import { CartContext } from './CartContext';
+import { useContext } from 'react';
 
 function CartWidget(){
+
+    const { getQuantity } = useContext(CartContext)
     return(
         <Link to='/cart'>
         <div className='cart'>
@@ -12,6 +16,7 @@ function CartWidget(){
             <path d="M17 17h-11v-14h-2" />
             <path d="M6 5l14 1l-1 7h-13" />
             </svg>
+            <p className='num-cart'>{getQuantity()}</p>
         </div>
         </Link>
         

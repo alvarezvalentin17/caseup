@@ -4,6 +4,7 @@ import { faUser } from '@fortawesome/free-solid-svg-icons'
 import { faPhone } from '@fortawesome/free-solid-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faEnvelopeOpen } from '@fortawesome/free-solid-svg-icons'
+import '../CSS/Form.css'
 
 const Formulario = ({ createOrder }) => {
     
