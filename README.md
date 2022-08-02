@@ -13,7 +13,7 @@ Descargar y correr el proyecto
 Una vez clonado o descargado el proyecto, instalar dependencias:
 
 npm install
-Correr el servidor:
+
 
 npm start
 Se abre una pestaña del navegador en el puerto 3000:
